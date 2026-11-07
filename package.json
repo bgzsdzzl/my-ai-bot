@@ -1,0 +1,13 @@
+{
+  "name": "github-ai-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "probot run ./index.js" },
+  "dependencies": {
+    "probot": "^13.0.0",
+    "@octokit/rest": "^21.0.0",
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": { "node": ">=18" }
+}
